@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linearGradient-1" x1="100%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#1D1D1D"/>
+      <stop offset="100%" stop-color="#444"/>
+    </linearGradient>
+    <linearGradient id="linearGradient-2" x1="100%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#1D1D1D"/>
+      <stop offset="100%" stop-color="#444"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-chat-mono" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path fill="url(#linearGradient-1)" d="M6 40a2 2 0 0 1-2-2V14a2 2 0 1 1 4 0v21a1 1 0 0 0 1 1h18a2 2 0 1 1 0 4H15l-3.414 3.414a2 2 0 0 1-1.414.586H9a1 1 0 0 1-1-1v-3H6z" class="svg-color-light" opacity=".5"/>
+    <path fill="url(#linearGradient-2)" d="M42 8a2 2 0 0 1 2 2v22a2 2 0 0 1-2 2h-3v5a1 1 0 0 1-1 1h-2.063a2 2 0 0 1-1.537-.72L30 34H12a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h30zM27 19a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-16 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" class="svg-color-dark"/>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+@use  '_variables.scss' as *;
+/* Break-point
+--------------------------*/
+$sm: 576px !default;
+$md: 768px !default;
+$lg: 1024px !default;
+$xl: 1200px !default;
+
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    "primary": (
+      "base": $primary-color,
+    ),
+    "success": (
+      "base": $success-color,
+    ),
+    "warning": (
+      "base": $warning-color,
+    ),
+    "danger": (
+      "base": #f24013,
+    ),
+    "error": (
+      "base": #F56C6C,
+    ),
+    "info": (
+      "base": #909399,
+    ),
+  ),
+  $breakpoints: (
+    'xs': '(max-width: #{$sm})',
+    'sm': '(min-width: #{$sm})',
+    'md': '(min-width: #{$md})',
+    'lg': '(min-width: #{$lg})',
+    'xl': '(min-width: #{$xl})',
+  ),
+);
+
+
+//https://blog.csdn.net/weixin_42074421/article/details/122083789
+// if you want to import all styles:
+// @use "element-plus/theme-chalk/src/index.scss" as *;
+@import "element-plus/theme-chalk/src/index.scss";
+
+.el-header {
+  --el-header-height: 64px;
+  --el-header-padding: 0 24px;
+}
+
+.el-footer {
+  --el-footer-padding: 0px;
+  --el-footer-height: 120px;
+}

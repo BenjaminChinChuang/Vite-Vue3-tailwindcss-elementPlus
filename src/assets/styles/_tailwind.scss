@@ -1,0 +1,12 @@
+@tailwind base;
+@layer base {
+  button,
+  [type='button'],
+  [type='reset'],
+  [type='submit'] {
+    -webkit-appearance: button; /* 1 */
+    background-color: var(--el-button-bg-color);
+  }
+}
+@tailwind components;
+@tailwind utilities;

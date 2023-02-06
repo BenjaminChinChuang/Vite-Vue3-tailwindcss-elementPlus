@@ -1,0 +1,39 @@
+{
+  "name": "vite-element-plus",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --mode development",
+    "build:stage": "vite build --mode stage",
+    "build:production": "vite build --mode production",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vuelidate/core": "^2.0.0-alpha.41",
+    "@vuelidate/validators": "^2.0.0-alpha.29",
+    "autoprefixer": "^10.4.4",
+    "axios": "^0.26.1",
+    "cssnano": "^5.1.5",
+    "element-plus": "^2.1.4",
+    "fs": "^0.0.1-security",
+    "js-cookie": "^3.0.1",
+    "postcss": "^8.4.12",
+    "postcss-import": "^14.1.0",
+    "qs": "^6.10.3",
+    "sass": "^1.49.9",
+    "svg-sprite-loader": "^6.0.11",
+    "tailwindcss": "^3.0.23",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "unplugin-auto-import": "^0.6.6",
+    "unplugin-element-plus": "^0.3.3",
+    "unplugin-vue-components": "^0.18.4",
+    "vite": "^2.8.0",
+    "vite-plugin-svg-icons": "^2.0.1"
+  }
+}

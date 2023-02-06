@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+    <defs>
+        <filter id="nd1a80mwua">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.847000 0 0 0 0 0.847000 0 0 0 0 0.847000 0 0 0 1.000000 0"/>
+        </filter>
+        <path id="a2pi52pysb" d="M9.85 9.562L7.78 12.15c-.344.431-.973.501-1.405.156-.057-.046-.11-.098-.156-.156L4.15 9.562c-.172-.215-.137-.53.079-.702.089-.071.199-.11.312-.11h4.92c.276 0 .5.224.5.5 0 .114-.039.224-.11.312z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g filter="url(#nd1a80mwua)" transform="translate(-1010.000000, -507.000000) translate(296.000000, 451.000000) translate(518.000000, 40.000000)">
+                    <g transform="translate(196.000000, 16.000000)">
+                        <path fill="#00b3ff" d="M9.46 5.25H4.54c-.276 0-.5-.224-.5-.5 0-.114.039-.224.11-.312L6.22 1.85c.344-.431.973-.501 1.405-.156.057.046.11.098.156.156l2.07 2.587c.172.215.137.53-.079.702-.089.071-.199.11-.312.11z"/>
+                        <use fill="#C3C3C3" xlink:href="#a2pi52pysb"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

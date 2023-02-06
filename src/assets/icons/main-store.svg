@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linearGradient-1" x1="100%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#444444"/>
+      <stop offset="100%" stop-color="#1d1d1d"/>
+    </linearGradient>
+    <linearGradient id="linearGradient-2" x1="100%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#444444"/>
+      <stop offset="100%" stop-color="#1d1d1d"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-store-mono" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path fill="url(#linearGradient-1)" d="M20 27a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h8zm24-16v4.5c0 2.485-2.239 4.5-5 4.5s-5-2.015-5-4.5c0 2.485-2.239 4.5-5 4.5s-5-2.015-5-4.5c0 2.485-2.239 4.5-5 4.5s-5-2.015-5-4.5c0 2.485-2.239 4.5-5 4.5s-5-2.015-5-4.5V11h40z" class="svg-color-light" opacity=".5"/>
+    <path fill="url(#linearGradient-2)" d="M34 15.5c0 2.485 2.239 4.5 5 4.5 1.636 0 3.089-.707 4.001-1.8L43 38a2 2 0 0 1-2 2h-6V29a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v11H7a2 2 0 0 1-2-2V18.2c.912 1.093 2.364 1.8 4 1.8 2.761 0 5-2.015 5-4.5 0 2.485 2.239 4.5 5 4.5s5-2.015 5-4.5c0 2.485 2.239 4.5 5 4.5s5-2.015 5-4.5zM20 27h-8a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1zM4 11V9a1 1 0 0 1 1-1h38a1 1 0 0 1 1 1v2H4z" class="svg-color-dark"/>
+  </g>
+</svg>

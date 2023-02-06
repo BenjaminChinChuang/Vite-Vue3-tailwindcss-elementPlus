@@ -1,0 +1,72 @@
+@use  'Styles/_variables.scss' as *;
+@import "Styles/_tailwind";
+@import "Styles/layout";
+
+
+// custom steps
+.rt-steps {
+  .el-step.is-center .el-step__line {
+    left: 60%;
+    right: -40%;
+  }
+  .el-step__line-inner {
+    display: none;
+  }
+  .el-step__line {
+    height: 1px;
+    background-color: $gray-lighter;
+  }
+  .el-step__head {
+    color: #ffffff;
+  }
+  .el-step__icon {
+    background: $gray;
+    border-color: $gray;
+  }
+  .el-step__title {
+    color: $gray-dark;
+    font-weight: 600;
+  }
+  .el-step__head.is-success {
+    .el-step__icon {
+      background: $secondary-color;
+      border-color: $secondary-color;
+    }
+  }
+  .el-step__title.is-success {
+    color: $secondary-color;
+  }
+}
+
+// custom imput
+.rt-input {
+  &.is-error {
+    .el-input__wrapper {
+      box-shadow: 0 0 0 1px $important-color;
+    }
+  }
+  &.is-warning {
+    .el-input__wrapper {
+      box-shadow: 0 0 0 1px $warning-color;
+    }
+  }
+  &.is-success {
+    .el-input__wrapper {
+      box-shadow: 0 0 0 1px $success-color;
+    }
+  }
+}
+
+// hide el-checkbox-group text
+.el-checkbox__label {
+  display: none;
+}
+
+.el-table th.el-table__cell:nth-child(2) > .cell {
+  @apply justify-start ;
+}
+
+.row-disabled {
+  background-color: #fff;
+  opacity: .3;
+}

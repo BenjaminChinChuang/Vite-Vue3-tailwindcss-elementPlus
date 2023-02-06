@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linearGradient-1" x1="100%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#444444"/>
+      <stop offset="100%" stop-color="#1d1d1d"/>
+    </linearGradient>
+    <linearGradient id="linearGradient-2" x1="100%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#444444"/>
+      <stop offset="100%" stop-color="#1d1d1d"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-medal-mono" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path fill="url(#linearGradient-1)" d="M15.78 6.428l3.598 5.171a17.992 17.992 0 0 0-8.586 5.171l-6.4-9.2A1 1 0 0 1 5.215 6h9.745a1 1 0 0 1 .821.428zM43.607 7.57l-6.4 9.2a17.992 17.992 0 0 0-8.585-5.171l3.597-5.17a1 1 0 0 1 .82-.43h9.747a1 1 0 0 1 .821 1.571z" class="svg-color-light" opacity=".5"/>
+    <path fill="url(#linearGradient-2)" d="M24 14c8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15-8.284 0-15-6.716-15-15 0-8.284 6.716-15 15-15zm.443 7.363a1 1 0 0 0-1.282.352l-.058.102-1.748 3.542-3.91.568a1 1 0 0 0-.638 1.613l.084.093 2.83 2.758-.669 3.893a1 1 0 0 0 1.345 1.103l.106-.049L24 33.5l3.497 1.838a1 1 0 0 0 1.464-.938l-.013-.116-.668-3.893 2.829-2.758a1 1 0 0 0-.44-1.682l-.115-.024-3.909-.568-1.748-3.542a1 1 0 0 0-.454-.454z" class="svg-color-dark"/>
+  </g>
+</svg>
